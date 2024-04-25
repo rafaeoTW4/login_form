@@ -1,0 +1,42 @@
+
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+
+body {
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+}
+
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: orangered;
+}
+
+body > header > h2.logo {
+                        
+}
+
+
+main {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      border: 2px solid rgba(255, 255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: aqua;
+}
